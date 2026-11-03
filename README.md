@@ -10,7 +10,6 @@ Aplicativo web interativo para explorar o histórico de taxas dos títulos públ
 Projeto desenvolvido no MBA em Ciência de Dados e IA da TripleTen, com foco em práticas de engenharia de software: ambiente virtual, versionamento com Git/GitHub e publicação de aplicativo em nuvem.
 
 ## Funcionalidades
-## Funcionalidades
 - **Filtros na barra lateral:** escolha dos indexadores e do período (anos).
 - **Indicadores:** taxa média de cada indexador no dia mais recente e variação em 12 meses.
 - **Histograma das taxas por indexador:** com que frequência cada faixa de taxa apareceu.
