@@ -10,10 +10,14 @@ Aplicativo web interativo para explorar o histórico de taxas dos títulos públ
 Projeto desenvolvido no MBA em Ciência de Dados e IA da TripleTen, com foco em práticas de engenharia de software: ambiente virtual, versionamento com Git/GitHub e publicação de aplicativo em nuvem.
 
 ## Funcionalidades
-- **Histograma das taxas por indexador:** mostra com que frequência cada faixa de taxa apareceu ao longo do tempo.
-- **Gráfico de dispersão prazo × taxa:** mostra, no dia mais recente da base, se títulos mais longos pagam taxas maiores (estrutura a termo).
-- Os gráficos são exibidos por meio de **caixas de seleção** e são interativos (zoom, filtro pela legenda, informações ao passar o mouse).
-- Cores fixas por indexador, para facilitar a comparação entre gráficos.
+## Funcionalidades
+- **Filtros na barra lateral:** escolha dos indexadores e do período (anos).
+- **Indicadores:** taxa média de cada indexador no dia mais recente e variação em 12 meses.
+- **Histograma das taxas por indexador:** com que frequência cada faixa de taxa apareceu.
+- **Gráfico de dispersão prazo × taxa:** se títulos mais longos pagam taxas maiores (estrutura a termo), no dia mais recente da base.
+- **Evolução no tempo:** média mensal da taxa de cada indexador.
+- **Simulador de investimento:** estimativa do valor bruto no vencimento de um título à venda, com premissas de Selic ou inflação definidas pelo usuário (simulação educativa, sem IR e taxas).
+- Gráficos exibidos por **caixas de seleção**, interativos e com cores fixas por indexador.
 
 ## Dados
 - **Fonte:** [Tesouro Transparente — Taxas dos Títulos Ofertados pelo Tesouro Direto](https://www.tesourotransparente.gov.br/ckan/dataset/taxas-dos-titulos-ofertados-pelo-tesouro-direto)
