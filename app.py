@@ -205,10 +205,10 @@ st.write(
     "Escolha um título à venda hoje e veja uma estimativa do valor bruto no vencimento."
 )
 
-# Renda+ e Educa+ pagam em parcelas mensais, então ficam fora desta conta simples
+   # Renda+ e Educa+ pagam em parcelas, e IGP-M+ não está mais à venda: ficam fora do simulador
 df_sim = df[
     (df["Data Base"] == ultima_data)
-    & ~df["Tipo Titulo"].str.contains("Renda\\+|Educa\\+")
+           & ~df["Tipo Titulo"].str.contains("Renda\\+|Educa\\+|IGPM")
 ].copy()
 df_sim["Opcao"] = (
     df_sim["Tipo Titulo"]
